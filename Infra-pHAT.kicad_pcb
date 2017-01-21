@@ -3,9 +3,9 @@
   (general
     (links 59)
     (no_connects 59)
-    (area 105.975429 93.919 194.252572 128.149)
+    (area 105.975429 74.953599 213.551101 126.653)
     (thickness 1.6)
-    (drawings 8)
+    (drawings 13)
     (tracks 0)
     (zones 0)
     (modules 24)
@@ -145,7 +145,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 541A9B4D) (tstamp 58831703)
-    (at 179.07 104.14 90)
+    (at 209.97 83.94 90)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /56FB5967)
@@ -174,7 +174,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 58831709)
-    (at 137.16 116.84 180)
+    (at 168.06 96.64 180)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /56FCE773)
@@ -203,7 +203,7 @@
   )
 
   (module LEDs:LED-5MM (layer F.Cu) (tedit 5570F7EA) (tstamp 5883170F)
-    (at 121.92 107.95 90)
+    (at 152.82 87.75 90)
     (descr "LED 5mm round vertical")
     (tags "LED 5mm round vertical")
     (path /56FCCD5F)
@@ -233,7 +233,7 @@
   )
 
   (module LEDs:LED-5MM (layer F.Cu) (tedit 5570F7EA) (tstamp 58831715)
-    (at 121.92 115.57 90)
+    (at 152.82 95.37 90)
     (descr "LED 5mm round vertical")
     (tags "LED 5mm round vertical")
     (path /5882BE41)
@@ -263,7 +263,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54EA090C) (tstamp 5883171B)
-    (at 179.07 114.3)
+    (at 209.97 94.1)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /570C5478)
@@ -296,7 +296,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 553634F8) (tstamp 58831722)
-    (at 129.54 105.41 180)
+    (at 160.44 85.21 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /570BF19F)
@@ -329,7 +329,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 58831728)
-    (at 179.07 109.22 270)
+    (at 209.97 89.02 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /56FB57DD)
@@ -358,7 +358,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 5883172E)
-    (at 172.72 106.68 180)
+    (at 203.62 86.48 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /56FB589D)
@@ -387,7 +387,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 58831734)
-    (at 172.72 102.87 180)
+    (at 203.62 82.67 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /56FB5912)
@@ -416,7 +416,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 5883173A)
-    (at 129.54 111.76)
+    (at 160.44 91.56)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /570BEF32)
@@ -445,7 +445,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 58831740)
-    (at 138.43 111.76 270)
+    (at 169.33 91.56 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /56FCE3CD)
@@ -474,7 +474,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 58831746)
-    (at 143.51 111.76)
+    (at 174.41 91.56)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /570C0762)
@@ -503,7 +503,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 5883174C)
-    (at 143.51 116.84)
+    (at 174.41 96.64)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /570C0BD5)
@@ -532,7 +532,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x20 (layer F.Cu) (tedit 0) (tstamp 58831778)
-    (at 125.857 99.695 90)
+    (at 156.757 79.495 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /56FB7C7A)
@@ -622,7 +622,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 58831780)
-    (at 157.48 116.84 270)
+    (at 188.38 96.64 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5704A9C3)
@@ -659,7 +659,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 58831788)
-    (at 157.48 111.76 270)
+    (at 188.38 91.56 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5752A123)
@@ -696,7 +696,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 58831790)
-    (at 157.48 106.68 270)
+    (at 188.38 86.48 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5752A2F7)
@@ -733,7 +733,7 @@
   )
 
   (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 54130A77) (tstamp 5883179C)
-    (at 166.37 113.03)
+    (at 197.27 92.83)
     (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
     (tags "dil dip 2.54 300")
     (path /56FB5761)
@@ -778,7 +778,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 588317A4)
-    (at 142.24 106.68 270)
+    (at 173.14 86.48 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /574EB04E)
@@ -815,7 +815,7 @@
   )
 
   (module myfootprint:TSOP38X (layer F.Cu) (tedit 56FD7409) (tstamp 588323BD)
-    (at 131.826 119.761)
+    (at 162.726 99.561)
     (path /56FCDD28)
     (fp_text reference IRRX1 (at -1.27 -1.778) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -837,7 +837,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 588331D4) (tstamp 588C38C3)
-    (at 121.158 98.298)
+    (at 152.058 78.098)
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (fp_text reference REF1 (at 0 -3.35) (layer F.SilkS) hide
@@ -852,7 +852,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 588331F2) (tstamp 588C38D0)
-    (at 179.07 98.298)
+    (at 209.97 78.098)
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (fp_text reference REF2 (at 0 -3.35) (layer F.SilkS) hide
@@ -867,7 +867,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 58833287) (tstamp 588C398A)
-    (at 179.07 122.174)
+    (at 209.97 101.974)
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (fp_text reference REF3 (at 0 -3.35) (layer F.SilkS) hide
@@ -882,7 +882,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 58833294) (tstamp 588C39A5)
-    (at 121.158 122.174)
+    (at 152.058 101.974)
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (fp_text reference REF4 (at 0 -3.35) (layer F.SilkS) hide
@@ -896,13 +896,18 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.7 4.7) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (gr_arc (start 121.282 122.087) (end 121.028 125.262) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 121.158 98.298) (end 118.11 98.425) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 178.928 122.072) (end 182.103 121.945) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 178.943 98.425) (end 179.07 95.25) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 179.07 95.25) (end 121.07 95.25) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 179.07 125.25) (end 121.07 125.25) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 58832903))
-  (gr_line (start 118.11 98.45) (end 118.11 121.85) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 182.1 121.95) (end 182.1 98.55) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 152 78.46) (end 152 77.46) (angle 90) (layer B.SilkS) (width 0.2))
+  (gr_line (start 148.5011 102.0036) (end 148.5011 78.0036) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 210.5011 105.0036) (end 151.5011 105.0036) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 213.5011 78.0036) (end 213.5011 102.0036) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 151.5011 75.0036) (end 210.5011 75.0036) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 151.5011 78.0036) (end 151.5011 75.0036) (angle -90) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 152.0011 77.5036) (end 152.0011 77.5036) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 210.5011 78.0036) (end 213.5011 78.0036) (angle -90) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 211.0011 77.5036) (end 211.0011 77.5036) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 210.5011 102.0036) (end 210.5011 105.0036) (angle -90) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 211.0011 101.5036) (end 211.0011 101.5036) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 151.5011 102.0036) (end 148.5011 102.0036) (angle -90) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 152.0011 101.5036) (end 152.0011 101.5036) (layer Edge.Cuts) (width 0.1))
 
 )
