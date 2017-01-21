@@ -3,7 +3,7 @@
   (general
     (links 59)
     (no_connects 59)
-    (area 105.975429 74.953599 213.551101 126.653)
+    (area 148.451099 74.953599 213.551101 105.053601)
     (thickness 1.6)
     (drawings 13)
     (tracks 0)
@@ -68,7 +68,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEFFFF)
+    (visible_elements FFFCFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -296,7 +296,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 553634F8) (tstamp 58831722)
-    (at 160.44 85.21 180)
+    (at 159.2 85.1 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /570BF19F)
@@ -416,7 +416,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 5883173A)
-    (at 160.44 91.56)
+    (at 159.1 90.6)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /570BEF32)
@@ -778,7 +778,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 588317A4)
-    (at 173.14 86.48 270)
+    (at 175.4 86.5 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /574EB04E)
