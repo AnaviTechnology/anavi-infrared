@@ -81,19 +81,6 @@ F 3 "" H 800 3950 50  0000 C CNN
 	1    800  3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  3500 800  3500
-Wire Wire Line
-	800  3500 800  3950
-Wire Wire Line
-	950  3600 800  3600
-Connection ~ 800  3600
-Wire Wire Line
-	950  3700 800  3700
-Connection ~ 800  3700
-Wire Wire Line
-	950  3800 800  3800
-Connection ~ 800  3800
 $Comp
 L GND #PWR02
 U 1 1 56FB5B93
@@ -105,8 +92,6 @@ F 3 "" H 1900 3050 50  0000 C CNN
 	1    1900 3050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2200 3500 2050 3500
 $Comp
 L +3.3V #PWR03
 U 1 1 56FB5F37
@@ -118,25 +103,6 @@ F 3 "" H 2200 2700 50  0000 C CNN
 	1    2200 2700
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 3050
-Wire Wire Line
-	2950 3050 2950 3200
-Wire Wire Line
-	2800 3050 2800 3200
-Connection ~ 2800 3050
-Wire Wire Line
-	2650 3200 2650 3050
-Connection ~ 2650 3050
-Wire Wire Line
-	2200 3050 2950 3050
-Wire Wire Line
-	2050 3600 2650 3600
-Wire Wire Line
-	2650 3500 2650 4050
-Wire Wire Line
-	2800 3700 2800 3500
-Wire Wire Line
-	2950 3800 2950 3500
 $Comp
 L GND #PWR04
 U 1 1 56FB60BD
@@ -148,8 +114,6 @@ F 3 "" H 2650 4650 50  0000 C CNN
 	1    2650 4650
 	1    0    0    -1  
 $EndComp
-Connection ~ 2950 3800
-Connection ~ 2800 3700
 $Comp
 L Raspberry_PI RASP_CONN1
 U 1 1 56FB7C7A
@@ -161,9 +125,6 @@ F 3 "" H 4400 1700 60  0000 C CNN
 	1    4400 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 2700 2200 3500
-Connection ~ 2650 3600
 $Comp
 L LED IRTX1
 U 1 1 56FCCD5F
@@ -219,8 +180,6 @@ F 3 "" H 7700 5150 50  0000 C CNN
 	1    7700 5150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7500 4750 7500 5300
 $Comp
 L CP C2
 U 1 1 56FCE773
@@ -243,7 +202,6 @@ F 3 "" H 7500 5600 50  0000 C CNN
 	1    7500 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 7500 5150
 $Comp
 L +3.3V #PWR08
 U 1 1 56FCEA80
@@ -266,9 +224,6 @@ F 3 "" H 3450 3450 50  0000 C CNN
 	1    3450 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 2150 3450 2250
-Connection ~ 3450 2150
 $Comp
 L +3.3V #PWR010
 U 1 1 56FD2267
@@ -280,7 +235,6 @@ F 3 "" H 3450 2150 50  0000 C CNN
 	1    3450 2150
 	1    0    0    -1  
 $EndComp
-Connection ~ 3450 1800
 $Comp
 L +5V #PWR011
 U 1 1 56FF1D94
@@ -292,8 +246,6 @@ F 3 "" H 3450 1800 50  0000 C CNN
 	1    3450 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 1800 3450 1900
 $Comp
 L I2C_SENS_1 SENS1
 U 1 1 5704A9C3
@@ -305,12 +257,6 @@ F 3 "" H 7200 1700 60  0000 C CNN
 	1    7200 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 1800 7000 1800
-Wire Wire Line
-	5350 1900 7000 1900
-Connection ~ 6650 1800
-Connection ~ 6800 1900
 $Comp
 L GND #PWR012
 U 1 1 5704B80C
@@ -322,10 +268,6 @@ F 3 "" H 8050 2100 50  0000 C CNN
 	1    8050 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8050 900  8050 2100
-Wire Wire Line
-	8050 1900 7900 1900
 $Comp
 L +3.3V #PWR013
 U 1 1 5704BA43
@@ -337,7 +279,6 @@ F 3 "" H 7900 700 50  0000 C CNN
 	1    7900 700 
 	1    0    0    -1  
 $EndComp
-Connection ~ 7900 1800
 $Comp
 L Q_NPN_BEC Q1
 U 1 1 570BF19F
@@ -404,24 +345,6 @@ F 3 "" H 6200 3900 50  0000 C CNN
 	1    6200 3900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2050 3700 3450 3700
-Wire Wire Line
-	2050 3800 3450 3800
-Wire Wire Line
-	7850 5150 7900 5150
-Wire Wire Line
-	7550 5150 7500 5150
-Wire Wire Line
-	5350 4150 5850 4150
-Wire Wire Line
-	5850 4150 5850 4850
-Wire Wire Line
-	5850 4850 7400 4850
-Wire Wire Line
-	7400 4850 7400 4750
-Wire Wire Line
-	6500 2450 6500 2600
 $Comp
 L CONN_01X04 UART1
 U 1 1 574EB04E
@@ -433,8 +356,6 @@ F 3 "" H 9000 2250 50  0000 C CNN
 	1    9000 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 2400 8550 2400
 $Comp
 L GND #PWR015
 U 1 1 574EBFC1
@@ -457,22 +378,12 @@ F 3 "" H 8550 2100 50  0000 C CNN
 	1    8550 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 2100 8800 2100
-Wire Wire Line
-	5350 2200 5500 2200
 Text Label 5500 2200 0    39   ~ 0
 TXD
-Wire Wire Line
-	5350 2300 5500 2300
 Text Label 5500 2300 0    39   ~ 0
 RXD
-Wire Wire Line
-	8800 2200 8550 2200
 Text Label 8550 2200 0    39   ~ 0
 TXD
-Wire Wire Line
-	8800 2300 8550 2300
 Text Label 8550 2300 0    39   ~ 0
 RXD
 $Comp
@@ -497,6 +408,148 @@ F 3 "" H 7200 700 60  0000 C CNN
 	1    7200 700 
 	1    0    0    -1  
 $EndComp
+$Comp
+L +3.3V #PWR017
+U 1 1 5752AF07
+P 6050 750
+F 0 "#PWR017" H 6050 600 50  0001 C CNN
+F 1 "+3.3V" H 6050 890 50  0000 C CNN
+F 2 "" H 6050 750 50  0000 C CNN
+F 3 "" H 6050 750 50  0000 C CNN
+	1    6050 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED IRTX2
+U 1 1 5882BE41
+P 6500 2800
+F 0 "IRTX2" V 6500 2650 50  0000 C CNN
+F 1 "L-53F3BT" H 6500 2900 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6500 2800 50  0001 C CNN
+F 3 "" H 6500 2800 50  0000 C CNN
+	1    6500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5882D374
+P 6200 4250
+F 0 "#PWR018" H 6200 4000 50  0001 C CNN
+F 1 "GND" H 6200 4100 50  0000 C CNN
+F 2 "" H 6200 4250 50  0000 C CNN
+F 3 "" H 6200 4250 50  0000 C CNN
+	1    6200 4250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5350 5050
+NoConn ~ 5350 4950
+NoConn ~ 5350 4850
+NoConn ~ 5350 4750
+NoConn ~ 5350 4650
+NoConn ~ 5350 4550
+NoConn ~ 5350 4450
+NoConn ~ 5350 4350
+NoConn ~ 5350 4250
+NoConn ~ 5350 3550
+NoConn ~ 5350 3650
+NoConn ~ 5350 3750
+NoConn ~ 5350 3850
+NoConn ~ 5350 3950
+NoConn ~ 5350 3450
+NoConn ~ 5350 2900
+NoConn ~ 5350 3000
+NoConn ~ 5350 2800
+NoConn ~ 5350 2600
+NoConn ~ 5350 2700
+Wire Wire Line
+	950  3500 800  3500
+Wire Wire Line
+	800  3500 800  3950
+Wire Wire Line
+	950  3600 800  3600
+Connection ~ 800  3600
+Wire Wire Line
+	950  3700 800  3700
+Connection ~ 800  3700
+Wire Wire Line
+	950  3800 800  3800
+Connection ~ 800  3800
+Wire Wire Line
+	2200 3500 2050 3500
+Connection ~ 2200 3050
+Wire Wire Line
+	2950 3050 2950 3200
+Wire Wire Line
+	2800 3050 2800 3200
+Connection ~ 2800 3050
+Wire Wire Line
+	2650 3200 2650 3050
+Connection ~ 2650 3050
+Wire Wire Line
+	2200 3050 2950 3050
+Wire Wire Line
+	2050 3600 2650 3600
+Wire Wire Line
+	2650 3500 2650 4050
+Wire Wire Line
+	2800 3700 2800 3500
+Wire Wire Line
+	2950 3800 2950 3500
+Connection ~ 2950 3800
+Connection ~ 2800 3700
+Wire Wire Line
+	2200 2700 2200 3500
+Connection ~ 2650 3600
+Wire Wire Line
+	7500 4750 7500 5300
+Connection ~ 7500 5150
+Wire Wire Line
+	3450 2150 3450 2250
+Connection ~ 3450 2150
+Connection ~ 3450 1800
+Wire Wire Line
+	3450 1800 3450 1900
+Wire Wire Line
+	5350 1800 7000 1800
+Wire Wire Line
+	5350 1900 7000 1900
+Connection ~ 6650 1800
+Connection ~ 6800 1900
+Wire Wire Line
+	8050 900  8050 2100
+Wire Wire Line
+	8050 1900 7900 1900
+Connection ~ 7900 1800
+Wire Wire Line
+	2050 3700 3450 3700
+Wire Wire Line
+	2050 3800 3450 3800
+Wire Wire Line
+	7850 5150 7900 5150
+Wire Wire Line
+	7550 5150 7500 5150
+Wire Wire Line
+	5350 4150 5850 4150
+Wire Wire Line
+	5850 4150 5850 4850
+Wire Wire Line
+	5850 4850 7400 4850
+Wire Wire Line
+	7400 4850 7400 4750
+Wire Wire Line
+	6500 2450 6500 2600
+Wire Wire Line
+	8800 2400 8550 2400
+Wire Wire Line
+	8550 2100 8800 2100
+Wire Wire Line
+	5350 2200 5500 2200
+Wire Wire Line
+	5350 2300 5500 2300
+Wire Wire Line
+	8800 2200 8550 2200
+Wire Wire Line
+	8800 2300 8550 2300
 Connection ~ 7900 1200
 Connection ~ 7900 800 
 Wire Wire Line
@@ -522,17 +575,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 750  6350 750 
 Connection ~ 6200 750 
-$Comp
-L +3.3V #PWR017
-U 1 1 5752AF07
-P 6050 750
-F 0 "#PWR017" H 6050 600 50  0001 C CNN
-F 1 "+3.3V" H 6050 890 50  0000 C CNN
-F 2 "" H 6050 750 50  0000 C CNN
-F 3 "" H 6050 750 50  0000 C CNN
-	1    6050 750 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5850 4050 5350 4050
 Wire Wire Line
@@ -541,58 +583,23 @@ Wire Wire Line
 	6650 800  6650 1800
 Wire Wire Line
 	7900 700  7900 1800
-$Comp
-L LED IRTX2
-U 1 1 5882BE41
-P 6500 2800
-F 0 "IRTX2" V 6500 2650 50  0000 C CNN
-F 1 "L-53F3BT" H 6500 2900 50  0000 C CNN
-F 2 "LEDs:LED-5MM" H 6500 2800 50  0001 C CNN
-F 3 "" H 6500 2800 50  0000 C CNN
-	1    6500 2800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5850 4050 5850 3600
 Wire Wire Line
 	5850 3600 6200 3600
 Wire Wire Line
 	6200 3600 6200 3750
-$Comp
-L GND #PWR018
-U 1 1 5882D374
-P 6200 4250
-F 0 "#PWR018" H 6200 4000 50  0001 C CNN
-F 1 "GND" H 6200 4100 50  0000 C CNN
-F 2 "" H 6200 4250 50  0000 C CNN
-F 3 "" H 6200 4250 50  0000 C CNN
-	1    6200 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 4050 6200 4250
 Wire Wire Line
 	6500 3800 6500 4250
-NoConn ~ 5350 5050
-NoConn ~ 5350 4950
-NoConn ~ 5350 4850
-NoConn ~ 5350 4750
-NoConn ~ 5350 4650
-NoConn ~ 5350 4550
-NoConn ~ 5350 4450
-NoConn ~ 5350 4350
-NoConn ~ 5350 4250
-NoConn ~ 5350 3550
-NoConn ~ 5350 3650
-NoConn ~ 5350 3750
-NoConn ~ 5350 3850
-NoConn ~ 5350 3950
-NoConn ~ 5350 3450
-NoConn ~ 5350 2900
-NoConn ~ 5350 3000
-NoConn ~ 5350 2800
-NoConn ~ 5350 2600
-NoConn ~ 5350 2700
 Wire Wire Line
-	3450 3350 3450 3450
+	3450 2650 3450 3450
+Connection ~ 3450 2750
+Connection ~ 3450 2850
+Connection ~ 3450 2950
+Connection ~ 3450 3050
+Connection ~ 3450 3150
+Connection ~ 3450 3350
+Connection ~ 3450 3250
 $EndSCHEMATC
