@@ -1,33 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:mylibrary
 LIBS:Infra-pHAT-cache
 EELAYER 25 0
@@ -296,15 +267,6 @@ F 3 "" H 3450 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 2650 3450 3450
-Connection ~ 3450 2750
-Connection ~ 3450 2850
-Connection ~ 3450 2950
-Connection ~ 3450 3050
-Connection ~ 3450 3150
-Connection ~ 3450 3250
-Connection ~ 3450 3350
-Wire Wire Line
 	3450 2150 3450 2250
 Connection ~ 3450 2150
 $Comp
@@ -431,8 +393,6 @@ F 3 "" H 2650 4350 50  0000 C CNN
 	1    2650 4350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6500 3400 6500 4250
 $Comp
 L R R4
 U 1 1 570BEF32
@@ -451,12 +411,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 5150 7900 5150
 Wire Wire Line
-	5350 4550 5500 4550
-Wire Wire Line
-	5350 3850 5500 3850
-Text Label 5500 4550 0    39   ~ 0
-D5
-Wire Wire Line
 	7550 5150 7500 5150
 Wire Wire Line
 	5350 4150 5850 4150
@@ -467,35 +421,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 4850 7400 4750
 Wire Wire Line
-	5350 2800 5750 2800
-Wire Wire Line
-	5350 5050 5500 5050
-Text Label 5500 5050 0    39   ~ 0
-D4
-Wire Wire Line
-	5350 2600 5500 2600
-Text Label 5500 2600 0    39   ~ 0
-D6
-Wire Wire Line
-	5350 2700 5500 2700
-Text Label 5500 2700 0    39   ~ 0
-D7
-Wire Wire Line
 	6500 2450 6500 2600
-Wire Wire Line
-	5350 4250 5500 4250
-Text Label 5500 4250 0    39   ~ 0
-LED1
-Text Label 5500 3850 0    39   ~ 0
-LED2
-Wire Wire Line
-	5350 4350 5500 4350
-Text Label 5500 4350 0    39   ~ 0
-LED3
-Wire Wire Line
-	5350 4450 5500 4450
-Text Label 5500 4450 0    39   ~ 0
-EN
 $Comp
 L CONN_01X04 UART1
 U 1 1 574EB04E
@@ -610,10 +536,6 @@ $EndComp
 Wire Wire Line
 	5850 4050 5350 4050
 Wire Wire Line
-	5350 3450 5500 3450
-Text Label 5500 3450 0    39   ~ 0
-RS
-Wire Wire Line
 	6800 900  6800 1900
 Wire Wire Line
 	6650 800  6650 1800
@@ -649,4 +571,28 @@ F 3 "" H 6200 4250 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	6200 4050 6200 4250
+Wire Wire Line
+	6500 3800 6500 4250
+NoConn ~ 5350 5050
+NoConn ~ 5350 4950
+NoConn ~ 5350 4850
+NoConn ~ 5350 4750
+NoConn ~ 5350 4650
+NoConn ~ 5350 4550
+NoConn ~ 5350 4450
+NoConn ~ 5350 4350
+NoConn ~ 5350 4250
+NoConn ~ 5350 3550
+NoConn ~ 5350 3650
+NoConn ~ 5350 3750
+NoConn ~ 5350 3850
+NoConn ~ 5350 3950
+NoConn ~ 5350 3450
+NoConn ~ 5350 2900
+NoConn ~ 5350 3000
+NoConn ~ 5350 2800
+NoConn ~ 5350 2600
+NoConn ~ 5350 2700
+Wire Wire Line
+	3450 3350 3450 3450
 $EndSCHEMATC
