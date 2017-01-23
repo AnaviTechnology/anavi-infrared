@@ -993,7 +993,7 @@
   (gr_text http://anavi.technology (at 184.7 103.2) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "ANAVI Infra pHAT" (at 183.9 100.4) (layer F.SilkS)
+  (gr_text "ANAVI Infrared pHAT" (at 185.1 100.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (dimension 3.5 (width 0.3) (layer F.CrtYd)
