@@ -5,7 +5,7 @@
     (no_connects 2)
     (area 136.817429 66.3 225.182572 110.000001)
     (thickness 1.6)
-    (drawings 21)
+    (drawings 31)
     (tracks 239)
     (zones 0)
     (modules 25)
@@ -20,26 +20,26 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
-    (32 B.Adhes user)
-    (33 F.Adhes user)
-    (34 B.Paste user)
-    (35 F.Paste user)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
+    (32 B.Adhes user hide)
+    (33 F.Adhes user hide)
+    (34 B.Paste user hide)
+    (35 F.Paste user hide)
     (36 B.SilkS user hide)
-    (37 F.SilkS user)
-    (38 B.Mask user)
-    (39 F.Mask user)
-    (40 Dwgs.User user)
-    (41 Cmts.User user)
+    (37 F.SilkS user hide)
+    (38 B.Mask user hide)
+    (39 F.Mask user hide)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
     (44 Edge.Cuts user)
-    (45 Margin user)
-    (46 B.CrtYd user)
+    (45 Margin user hide)
+    (46 B.CrtYd user hide)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -71,7 +71,7 @@
     (pad_drill 2.7)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEFFFF)
+    (visible_elements FFFFF97F)
     (pcbplotparams
       (layerselection 0x010e0_80000001)
       (usegerberextensions true)
@@ -96,7 +96,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory plots/rev-1.0/))
+      (outputdirectory schemes/))
   )
 
   (net 0 "")
@@ -189,7 +189,7 @@
     (uvia_drill 0.1)
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5884D9A0) (tstamp 58831703)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 588FBDB9) (tstamp 58831703)
     (at 209.97 83.94 90)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -198,7 +198,7 @@
     (fp_text reference C1 (at -0.06 1.93 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1 (at 0 1.9 90) (layer F.Fab)
+    (fp_text value 0.1 (at 0 1.9 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.85 -0.75) (end 1.85 -0.75) (layer F.CrtYd) (width 0.05))
@@ -218,7 +218,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58853621) (tstamp 58831709)
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 588FBD5A) (tstamp 58831709)
     (at 168.06 96.64 180)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
@@ -227,7 +227,7 @@
     (fp_text reference C2 (at 0.06 2.04 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7 (at 0 2.1 180) (layer F.Fab)
+    (fp_text value 4.7 (at 0 2.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1) (end 2.3 -1) (layer F.CrtYd) (width 0.05))
@@ -247,7 +247,7 @@
     )
   )
 
-  (module LEDs:LED-5MM (layer F.Cu) (tedit 5884D686) (tstamp 5883170F)
+  (module LEDs:LED-5MM (layer F.Cu) (tedit 588FBD88) (tstamp 5883170F)
     (at 152.82 87.75 90)
     (descr "LED 5mm round vertical")
     (tags "LED 5mm round vertical")
@@ -255,7 +255,7 @@
     (fp_text reference IRTX1 (at 1.524 4.064 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value L-53F3BT (at 1.524 -3.937 90) (layer F.Fab)
+    (fp_text value L-53F3BT (at 1.524 -3.937 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.5 -1.55) (end -1.5 1.55) (layer F.CrtYd) (width 0.05))
@@ -277,7 +277,7 @@
     )
   )
 
-  (module LEDs:LED-5MM (layer F.Cu) (tedit 5884D68F) (tstamp 58831715)
+  (module LEDs:LED-5MM (layer F.Cu) (tedit 588FBD8F) (tstamp 58831715)
     (at 152.82 95.37 90)
     (descr "LED 5mm round vertical")
     (tags "LED 5mm round vertical")
@@ -285,7 +285,7 @@
     (fp_text reference IRTX2 (at 1.524 4.064 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value L-53F3BT (at 1.524 -3.937 90) (layer F.Fab)
+    (fp_text value L-53F3BT (at 1.524 -3.937 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.5 -1.55) (end -1.5 1.55) (layer F.CrtYd) (width 0.05))
@@ -307,7 +307,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5884D9A6) (tstamp 5883171B)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 588FBD9A) (tstamp 5883171B)
     (at 209.97 94.1)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -315,7 +315,7 @@
     (fp_text reference JP1 (at 2.63 1.3 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value JUMPER (at 0 -3.1) (layer F.Fab)
+    (fp_text value JUMPER (at 0 -3.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
@@ -340,7 +340,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58853600) (tstamp 58831722)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 588FBD4C) (tstamp 58831722)
     (at 159.7 86.6 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -349,7 +349,7 @@
     (fp_text reference Q1 (at 0 -2.6 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BC817 (at 0 2.3 180) (layer F.Fab)
+    (fp_text value BC817 (at 0 2.3 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.65 -1.6) (end 1.65 -1.6) (layer F.CrtYd) (width 0.05))
@@ -374,7 +374,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 58831728)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 588FBDA0) (tstamp 58831728)
     (at 209.97 89.02 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -383,7 +383,7 @@
     (fp_text reference R1 (at 0 -1.9 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1K (at 0 1.9 270) (layer F.Fab)
+    (fp_text value 1K (at 0 1.9 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -403,7 +403,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58853611) (tstamp 5883172E)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 588FBDA5) (tstamp 5883172E)
     (at 203.9 87.9 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -412,7 +412,7 @@
     (fp_text reference R2 (at 0 -1.7 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7K (at 0 1.9 180) (layer F.Fab)
+    (fp_text value 4.7K (at 0 1.9 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -432,7 +432,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5418A00F) (tstamp 58831734)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 588FBDAE) (tstamp 58831734)
     (at 203.9 83.9 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -441,7 +441,7 @@
     (fp_text reference R3 (at 0 -1.9 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7K (at 0 1.9 180) (layer F.Fab)
+    (fp_text value 4.7K (at 0 1.9 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -461,7 +461,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 588535F6) (tstamp 5883173A)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 588FBD53) (tstamp 5883173A)
     (at 159.6 91.6)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -470,7 +470,7 @@
     (fp_text reference R4 (at 0.1 1.8) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at 0 1.9) (layer F.Fab)
+    (fp_text value 10K (at 0 1.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -490,7 +490,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5884D6A9) (tstamp 58831740)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 588FBD64) (tstamp 58831740)
     (at 169.33 91.56 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -499,7 +499,7 @@
     (fp_text reference R5 (at 0.09 1.83 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 470 (at 0 1.9 270) (layer F.Fab)
+    (fp_text value 470 (at 0 1.9 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -519,7 +519,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5884D71D) (tstamp 58831746)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 588FBD6B) (tstamp 58831746)
     (at 174.41 91.56 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -528,7 +528,7 @@
     (fp_text reference R6 (at 1.44 1.66 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7K (at 0 1.9 270) (layer F.Fab)
+    (fp_text value 4.7K (at 0 1.9 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -548,7 +548,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5884D718) (tstamp 5883174C)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 588FBD73) (tstamp 5883174C)
     (at 174.41 96.64 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -557,7 +557,7 @@
     (fp_text reference R7 (at 0.01 1.66 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7K (at 0 1.9 270) (layer F.Fab)
+    (fp_text value 4.7K (at 0 1.9 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -577,7 +577,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_2x20 (layer F.Cu) (tedit 5884D67E) (tstamp 58831778)
+  (module Pin_Headers:Pin_Header_Straight_2x20 (layer F.Cu) (tedit 588FBD82) (tstamp 58831778)
     (at 156.85 79.8 90)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -585,7 +585,7 @@
     (fp_text reference RASP_CONN1 (at 0 -5.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Raspberry_PI (at 0 -3.1 90) (layer F.Fab)
+    (fp_text value Raspberry_PI (at 0 -3.1 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 50.05) (layer F.CrtYd) (width 0.05))
@@ -687,7 +687,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5884D61F) (tstamp 58831780)
+  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 588FBD3A) (tstamp 58831780)
     (at 188.38 96.64 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -695,7 +695,7 @@
     (fp_text reference SENS1 (at 0 -5.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value I2C_SENS_1 (at 0 -3.1 270) (layer F.Fab)
+    (fp_text value I2C_SENS_1 (at 0 -3.1 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 9.4) (layer F.CrtYd) (width 0.05))
@@ -724,7 +724,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5884D629) (tstamp 58831788)
+  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 588FBD33) (tstamp 58831788)
     (at 188.38 91.56 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -732,7 +732,7 @@
     (fp_text reference SENS2 (at 0 -5.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value I2C_SENS_1 (at 0 -3.1 270) (layer F.Fab)
+    (fp_text value I2C_SENS_1 (at 0 -3.1 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 9.4) (layer F.CrtYd) (width 0.05))
@@ -761,7 +761,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5884D632) (tstamp 58831790)
+  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 588FBD12) (tstamp 58831790)
     (at 188.38 86.48 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -769,7 +769,7 @@
     (fp_text reference SENS3 (at 0 -5.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value I2C_SENS_1 (at 0 -3.1 270) (layer F.Fab)
+    (fp_text value I2C_SENS_1 (at 0 -3.1 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 9.4) (layer F.CrtYd) (width 0.05))
@@ -798,7 +798,7 @@
     )
   )
 
-  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 5884D6F1) (tstamp 5883179C)
+  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 588FBD0C) (tstamp 5883179C)
     (at 197.27 92.83)
     (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
     (tags "dil dip 2.54 300")
@@ -806,7 +806,7 @@
     (fp_text reference U1 (at 0 -5.22) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CAT24C32WI-GT3 (at 0 -3.72) (layer F.Fab)
+    (fp_text value CAT24C32WI-GT3 (at 0 -3.72) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.05 -2.45) (end -1.05 10.1) (layer F.CrtYd) (width 0.05))
@@ -843,7 +843,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5884D66E) (tstamp 588317A4)
+  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 588FBD42) (tstamp 588317A4)
     (at 167.1 86.5 90)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -851,7 +851,7 @@
     (fp_text reference UART (at -2.35 4.55 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X04 (at 0 -3.1 90) (layer F.Fab)
+    (fp_text value CONN_01X04 (at 0 -3.1 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 9.4) (layer F.CrtYd) (width 0.05))
@@ -880,13 +880,13 @@
     )
   )
 
-  (module myfootprint:TSOP38X (layer F.Cu) (tedit 58853631) (tstamp 588323BD)
+  (module myfootprint:TSOP38X (layer F.Cu) (tedit 588FBD7A) (tstamp 588323BD)
     (at 166.8 99.7)
     (path /56FCDD28)
     (fp_text reference IRRX (at 0.074 0.339) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TSOP34838 (at 0 -0.5) (layer F.Fab)
+    (fp_text value TSOP34838 (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 0 1.27) (end 2.54 3.81) (angle 90) (layer F.SilkS) (width 0.15))
@@ -902,14 +902,14 @@
       (net 3 "Net-(C2-Pad1)"))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 588331D4) (tstamp 588C38C3)
+  (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 588FBCDB) (tstamp 588C38C3)
     (at 152 78.5)
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (fp_text reference REF1 (at 0 -3.35) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.7mm_M2.5_DIN965_Pad (at 0 3.35) (layer F.Fab)
+    (fp_text value MountingHole_2.7mm_M2.5_DIN965_Pad (at 0 3.35) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2.35 0) (layer Cmts.User) (width 0.15))
@@ -917,14 +917,14 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.7 4.7) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 5884AECD) (tstamp 588C38D0)
+  (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 588FBCD6) (tstamp 588C38D0)
     (at 210 78.5)
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (fp_text reference REF2 (at 0 -3.35) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.7mm_M2.5_DIN965_Pad (at 0 3.35) (layer F.Fab)
+    (fp_text value MountingHole_2.7mm_M2.5_DIN965_Pad (at 0 3.35) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2.35 0) (layer Cmts.User) (width 0.15))
@@ -932,14 +932,14 @@
     (pad 2 thru_hole circle (at 0 0) (size 4.7 4.7) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 5884AED3) (tstamp 588C398A)
+  (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 588FBCC1) (tstamp 588C398A)
     (at 210 101.5)
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (fp_text reference REF3 (at 0 -3.35) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.7mm_M2.5_DIN965_Pad (at 0 3.35) (layer F.Fab)
+    (fp_text value MountingHole_2.7mm_M2.5_DIN965_Pad (at 0 3.35) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2.35 0) (layer Cmts.User) (width 0.15))
@@ -947,14 +947,14 @@
     (pad 3 thru_hole circle (at 0 0) (size 4.7 4.7) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 5884AEDA) (tstamp 588C39A5)
+  (module Mounting_Holes:MountingHole_2.7mm_M2.5_DIN965_Pad (layer F.Cu) (tedit 588FBCE4) (tstamp 588C39A5)
     (at 152 101.5)
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (fp_text reference REF4 (at 0 -3.35) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.7mm_M2.5_DIN965_Pad (at 0 3.35) (layer F.Fab)
+    (fp_text value MountingHole_2.7mm_M2.5_DIN965_Pad (at 0 3.35) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2.35 0) (layer Cmts.User) (width 0.15))
@@ -975,6 +975,36 @@
       (xy -1.693333 -1.524) (xy -1.693333 -1.778) (xy 1.693334 -1.778) (xy 1.693334 1.693334)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text BC817 (at 159.6 86.6) (layer F.Fab)
+    (effects (font (size 0.6 0.6) (thickness 0.125)))
+  )
+  (gr_text 10K (at 159.7 91.6) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text 470 (at 169.4 91.7 90) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text 4,7pF (at 167.9 96.7) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text 100nF (at 210 83.9 90) (layer F.Fab)
+    (effects (font (size 1 0.8) (thickness 0.2)))
+  )
+  (gr_text 1K (at 210 88.9 90) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text 4,7K (at 174.5 96.8 90) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text 4,7K (at 174.4 91.7 90) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text 4,7K (at 203.9 87.9) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text 4,7K (at 203.9 83.9) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
   (gr_text "Rev 1.0 (c) 2017" (at 182.8 102) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
