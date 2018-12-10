@@ -3,6 +3,23 @@
 # Toshiba AC IR Code Decoder
 #   Copyleft 2018 - Georgi Kolev
 #
+# ---------------------------------------------------------------------------------------
+# $ ./ac-toshiba.py -d /dev/lirc0 -v
+# Trying device: /dev/lirc0
+# Using device: /dev/lirc0
+# Toshiba AC -  Mode: Hot    Temp: 22   Fan: Auto
+#   Hex:   0xF9     0x06     0x81     0xFE     0x00     0xA8     0x01     0x80     0x29
+#   Bin: 11111001 00000110 10000001 11111110 00000000 10101000 00000001 10000000 00101001
+#
+# Toshiba AC -  Mode: Hot    Temp: 23   Fan: Auto
+#   Hex:   0xF9     0x06     0x81     0xFE     0x00     0xB0     0x01     0x80     0x31
+#   Bin: 11111001 00000110 10000001 11111110 00000000 10110000 00000001 10000000 00110001
+#
+# Toshiba AC -  Mode: Hot    Temp: 24   Fan: Auto
+#   Hex:   0xF9     0x06     0x81     0xFE     0x00     0xB8     0x01     0x80     0x39
+#   Bin: 11111001 00000110 10000001 11111110 00000000 10111000 00000001 10000000 00111001
+#
+# ---------------------------------------------------------------------------------------
 # Toshiba AC protocol overview:
 #
 # There are few types of packets
