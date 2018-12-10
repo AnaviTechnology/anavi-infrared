@@ -83,7 +83,7 @@ import subprocess
 MIN_LEN = 48
 SPACE_ONE = 1000
 MAX_SPACE = 15000
-DEBUG = True
+
 
 def start_process(device):
 
@@ -128,7 +128,6 @@ def start_process(device):
 class toshiba_ac():
     def __init__(self):
         self.pkt = ''
-        self.smode  = ''
         self.pkt_id = '1111100100000110'
         self.hex_pkt = []
         self.modes = {
@@ -267,8 +266,3 @@ if args.device:
 else:
     print("No device specified.")
     sys.exit(0)
-
-## 0xff we go...
-if check_args():
-    start_process(sys.argv[1])
-
