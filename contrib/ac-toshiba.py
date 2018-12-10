@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 #
+# Toshiba AC IR Code Decoder
+#   Copyleft 2018 - Georgi Kolev
+#
 # Toshiba AC protocol overview:
 #
 # There are few types of packets
