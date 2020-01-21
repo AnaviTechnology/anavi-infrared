@@ -1,6 +1,6 @@
 # ANAVI Infrared pHAT
 
-ANAVI Infared pHAT is an open source hardware Raspberry Pi pHAT (add-on board) for rapid prototyping of Internet of Things (IoT) powered by free and open source software. It features:
+ANAVI Infrared pHAT is an open source hardware Raspberry Pi pHAT (add-on board) for rapid prototyping of Internet of Things (IoT) powered by free and open source software. It features:
 
 * 2x IR transmitters
 * IR receiver (IR photo sensor)
