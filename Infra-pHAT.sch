@@ -1,7 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:mylibrary
-LIBS:Infra-pHAT-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CAT24C32WI-GT3 U1
+L mylibrary:CAT24C32WI-GT3 U1
 U 1 1 56FB5761
 P 1500 3300
 F 0 "U1" H 1250 3250 60  0000 C CNN
@@ -27,7 +25,7 @@ F 3 "" H 1500 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Infra-pHAT-rescue:R R1
 U 1 1 56FB57DD
 P 2650 3350
 F 0 "R1" H 2600 3500 50  0000 C CNN
@@ -38,7 +36,7 @@ F 3 "" H 2650 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Infra-pHAT-rescue:R R2
 U 1 1 56FB589D
 P 2800 3350
 F 0 "R2" H 2750 3500 50  0000 C CNN
@@ -49,7 +47,7 @@ F 3 "" H 2800 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L Infra-pHAT-rescue:R R3
 U 1 1 56FB5912
 P 2950 3350
 F 0 "R3" H 2900 3500 50  0000 C CNN
@@ -60,7 +58,7 @@ F 3 "" H 2950 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Infra-pHAT-rescue:C C1
 U 1 1 56FB5967
 P 2050 3050
 F 0 "C1" V 2200 3000 50  0000 L CNN
@@ -71,7 +69,7 @@ F 3 "" H 2050 3050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 56FB5AA8
 P 800 3950
 F 0 "#PWR01" H 800 3700 50  0001 C CNN
@@ -82,7 +80,7 @@ F 3 "" H 800 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 56FB5B93
 P 1900 3050
 F 0 "#PWR02" H 1900 2800 50  0001 C CNN
@@ -93,7 +91,7 @@ F 3 "" H 1900 3050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR03
+L power:+3.3V #PWR03
 U 1 1 56FB5F37
 P 2200 2700
 F 0 "#PWR03" H 2200 2550 50  0001 C CNN
@@ -104,7 +102,7 @@ F 3 "" H 2200 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 56FB60BD
 P 2650 4650
 F 0 "#PWR04" H 2650 4400 50  0001 C CNN
@@ -115,7 +113,7 @@ F 3 "" H 2650 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_PI RASP_CONN1
+L mylibrary:Raspberry_PI RASP_CONN1
 U 1 1 56FB7C7A
 P 4400 1700
 F 0 "RASP_CONN1" H 3900 1750 60  0001 C CNN
@@ -126,7 +124,7 @@ F 3 "" H 4400 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED IRTX1
+L Infra-pHAT-rescue:LED IRTX1
 U 1 1 56FCCD5F
 P 6500 3200
 F 0 "IRTX1" V 6500 3050 50  0000 C CNN
@@ -137,7 +135,7 @@ F 3 "" H 6500 3200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 56FCD5E9
 P 6500 4250
 F 0 "#PWR05" H 6500 4000 50  0001 C CNN
@@ -148,7 +146,7 @@ F 3 "" H 6500 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSOP382 IRRX1
+L mylibrary:TSOP382 IRRX1
 U 1 1 56FCDD28
 P 7250 4550
 F 0 "IRRX1" V 7550 4050 60  0000 C CNN
@@ -159,7 +157,7 @@ F 3 "" H 7250 4550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 56FCDFD8
 P 7600 4750
 F 0 "#PWR06" H 7600 4500 50  0001 C CNN
@@ -170,7 +168,7 @@ F 3 "" H 7600 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Infra-pHAT-rescue:R R5
 U 1 1 56FCE3CD
 P 7700 5150
 F 0 "R5" V 7800 5150 50  0000 C CNN
@@ -181,7 +179,7 @@ F 3 "" H 7700 5150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CP C2
+L Infra-pHAT-rescue:CP C2
 U 1 1 56FCE773
 P 7500 5450
 F 0 "C2" H 7525 5550 50  0000 L CNN
@@ -192,7 +190,7 @@ F 3 "" H 7500 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 56FCE7D8
 P 7500 5600
 F 0 "#PWR07" H 7500 5350 50  0001 C CNN
@@ -203,7 +201,7 @@ F 3 "" H 7500 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR08
+L power:+3.3V #PWR08
 U 1 1 56FCEA80
 P 7900 5150
 F 0 "#PWR08" H 7900 5000 50  0001 C CNN
@@ -214,7 +212,7 @@ F 3 "" H 7900 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 56FD1B71
 P 3450 3450
 F 0 "#PWR09" H 3450 3200 50  0001 C CNN
@@ -225,7 +223,7 @@ F 3 "" H 3450 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR010
+L power:+3.3V #PWR010
 U 1 1 56FD2267
 P 3450 2150
 F 0 "#PWR010" H 3450 2000 50  0001 C CNN
@@ -236,7 +234,7 @@ F 3 "" H 3450 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR011
+L power:+5V #PWR011
 U 1 1 56FF1D94
 P 3450 1800
 F 0 "#PWR011" H 3450 1650 50  0001 C CNN
@@ -247,7 +245,7 @@ F 3 "" H 3450 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L I2C_SENS_1 SENS1
+L mylibrary:I2C_SENS_1 SENS1
 U 1 1 5704A9C3
 P 7200 1700
 F 0 "SENS1" H 7300 1800 60  0000 C CNN
@@ -258,7 +256,7 @@ F 3 "" H 7200 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5704B80C
 P 8050 2100
 F 0 "#PWR012" H 8050 1850 50  0001 C CNN
@@ -269,7 +267,7 @@ F 3 "" H 8050 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR013
+L power:+3.3V #PWR013
 U 1 1 5704BA43
 P 7900 700
 F 0 "#PWR013" H 7900 550 50  0001 C CNN
@@ -280,7 +278,7 @@ F 3 "" H 7900 700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NPN_BEC Q1
+L Infra-pHAT-rescue:Q_NPN_BEC Q1
 U 1 1 570BF19F
 P 6400 3600
 F 0 "Q1" H 6700 3650 50  0000 R CNN
@@ -291,7 +289,7 @@ F 3 "" H 6400 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR014
+L power:+5V #PWR014
 U 1 1 570BFB30
 P 6500 2450
 F 0 "#PWR014" H 6500 2300 50  0001 C CNN
@@ -302,7 +300,7 @@ F 3 "" H 6500 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Infra-pHAT-rescue:R R6
 U 1 1 570C0762
 P 6200 900
 F 0 "R6" H 6150 750 50  0000 C CNN
@@ -313,7 +311,7 @@ F 3 "" H 6200 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Infra-pHAT-rescue:R R7
 U 1 1 570C0BD5
 P 6350 900
 F 0 "R7" H 6450 750 50  0000 C CNN
@@ -324,7 +322,7 @@ F 3 "" H 6350 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JUMPER JP1
+L Infra-pHAT-rescue:JUMPER JP1
 U 1 1 570C5478
 P 2650 4350
 F 0 "JP1" V 2650 4550 50  0000 C CNN
@@ -335,7 +333,7 @@ F 3 "" H 2650 4350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L Infra-pHAT-rescue:R R4
 U 1 1 570BEF32
 P 6200 3900
 F 0 "R4" V 6280 3900 50  0000 C CNN
@@ -346,7 +344,7 @@ F 3 "" H 6200 3900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X04 UART1
+L Infra-pHAT-rescue:CONN_01X04 UART1
 U 1 1 574EB04E
 P 9000 2250
 F 0 "UART1" H 9000 2500 50  0000 C CNN
@@ -357,7 +355,7 @@ F 3 "" H 9000 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 574EBFC1
 P 8550 2400
 F 0 "#PWR015" H 8550 2150 50  0001 C CNN
@@ -368,7 +366,7 @@ F 3 "" H 8550 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR016
+L power:+3.3V #PWR016
 U 1 1 574EC177
 P 8550 2100
 F 0 "#PWR016" H 8550 1950 50  0001 C CNN
@@ -387,7 +385,7 @@ TXD
 Text Label 8550 2300 0    39   ~ 0
 RXD
 $Comp
-L I2C_SENS_1 SENS2
+L mylibrary:I2C_SENS_1 SENS2
 U 1 1 5752A123
 P 7200 1100
 F 0 "SENS2" H 7300 1200 60  0000 C CNN
@@ -398,7 +396,7 @@ F 3 "" H 7200 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L I2C_SENS_1 SENS3
+L mylibrary:I2C_SENS_1 SENS3
 U 1 1 5752A2F7
 P 7200 700
 F 0 "SENS3" H 7300 800 60  0000 C CNN
@@ -409,7 +407,7 @@ F 3 "" H 7200 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR017
+L power:+3.3V #PWR017
 U 1 1 5752AF07
 P 6050 750
 F 0 "#PWR017" H 6050 600 50  0001 C CNN
@@ -420,7 +418,7 @@ F 3 "" H 6050 750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED IRTX2
+L Infra-pHAT-rescue:LED IRTX2
 U 1 1 5882BE41
 P 6500 2800
 F 0 "IRTX2" V 6500 2650 50  0000 C CNN
@@ -431,7 +429,7 @@ F 3 "" H 6500 2800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5882D374
 P 6200 4250
 F 0 "#PWR018" H 6200 4000 50  0001 C CNN
@@ -464,7 +462,7 @@ NoConn ~ 5350 2700
 Wire Wire Line
 	950  3500 800  3500
 Wire Wire Line
-	800  3500 800  3950
+	800  3500 800  3600
 Wire Wire Line
 	950  3600 800  3600
 Connection ~ 800  3600
@@ -486,11 +484,11 @@ Wire Wire Line
 	2650 3200 2650 3050
 Connection ~ 2650 3050
 Wire Wire Line
-	2200 3050 2950 3050
+	2200 3050 2650 3050
 Wire Wire Line
 	2050 3600 2650 3600
 Wire Wire Line
-	2650 3500 2650 4050
+	2650 3500 2650 3600
 Wire Wire Line
 	2800 3700 2800 3500
 Wire Wire Line
@@ -498,10 +496,10 @@ Wire Wire Line
 Connection ~ 2950 3800
 Connection ~ 2800 3700
 Wire Wire Line
-	2200 2700 2200 3500
+	2200 2700 2200 3050
 Connection ~ 2650 3600
 Wire Wire Line
-	7500 4750 7500 5300
+	7500 4750 7500 5150
 Connection ~ 7500 5150
 Wire Wire Line
 	3450 2150 3450 2250
@@ -510,20 +508,19 @@ Connection ~ 3450 1800
 Wire Wire Line
 	3450 1800 3450 1900
 Wire Wire Line
-	5350 1800 7000 1800
+	5350 1800 6650 1800
 Wire Wire Line
-	5350 1900 7000 1900
+	5350 1900 6800 1900
 Connection ~ 6650 1800
 Connection ~ 6800 1900
 Wire Wire Line
-	8050 900  8050 2100
+	8050 900  8050 1300
 Wire Wire Line
 	8050 1900 7900 1900
-Connection ~ 7900 1800
 Wire Wire Line
-	2050 3700 3450 3700
+	2050 3700 2800 3700
 Wire Wire Line
-	2050 3800 3450 3800
+	2050 3800 2950 3800
 Wire Wire Line
 	7850 5150 7900 5150
 Wire Wire Line
@@ -561,28 +558,28 @@ Connection ~ 8050 1300
 Wire Wire Line
 	7000 800  6650 800 
 Wire Wire Line
-	6200 1200 7000 1200
+	6200 1200 6650 1200
 Connection ~ 6650 1200
 Wire Wire Line
 	7000 900  6800 900 
 Wire Wire Line
-	6350 1300 7000 1300
+	6350 1300 6800 1300
 Connection ~ 6800 1300
 Wire Wire Line
 	6350 1050 6350 1300
 Wire Wire Line
 	6200 1050 6200 1200
 Wire Wire Line
-	6050 750  6350 750 
+	6050 750  6200 750 
 Connection ~ 6200 750 
 Wire Wire Line
 	5850 4050 5350 4050
 Wire Wire Line
-	6800 900  6800 1900
+	6800 900  6800 1300
 Wire Wire Line
-	6650 800  6650 1800
+	6650 800  6650 1200
 Wire Wire Line
-	7900 700  7900 1800
+	7900 700  7900 800 
 Wire Wire Line
 	5850 4050 5850 3600
 Wire Wire Line
@@ -594,7 +591,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3800 6500 4250
 Wire Wire Line
-	3450 2650 3450 3450
+	3450 2650 3450 2750
 Connection ~ 3450 2750
 Connection ~ 3450 2850
 Connection ~ 3450 2950
@@ -602,4 +599,60 @@ Connection ~ 3450 3050
 Connection ~ 3450 3150
 Connection ~ 3450 3350
 Connection ~ 3450 3250
+Wire Wire Line
+	800  3600 800  3700
+Wire Wire Line
+	800  3700 800  3800
+Wire Wire Line
+	800  3800 800  3950
+Wire Wire Line
+	2200 3050 2200 3500
+Wire Wire Line
+	2800 3050 2950 3050
+Wire Wire Line
+	2650 3050 2800 3050
+Wire Wire Line
+	2950 3800 3450 3800
+Wire Wire Line
+	2800 3700 3450 3700
+Wire Wire Line
+	2650 3600 2650 4050
+Wire Wire Line
+	7500 5150 7500 5300
+Wire Wire Line
+	6650 1800 7000 1800
+Wire Wire Line
+	6800 1900 7000 1900
+Wire Wire Line
+	7900 1200 7900 1800
+Wire Wire Line
+	7900 800  7900 1200
+Wire Wire Line
+	8050 1900 8050 2100
+Wire Wire Line
+	8050 1300 8050 1900
+Wire Wire Line
+	6650 1200 7000 1200
+Wire Wire Line
+	6650 1200 6650 1800
+Wire Wire Line
+	6800 1300 7000 1300
+Wire Wire Line
+	6800 1300 6800 1900
+Wire Wire Line
+	6200 750  6350 750 
+Wire Wire Line
+	3450 2750 3450 2850
+Wire Wire Line
+	3450 2850 3450 2950
+Wire Wire Line
+	3450 2950 3450 3050
+Wire Wire Line
+	3450 3050 3450 3150
+Wire Wire Line
+	3450 3150 3450 3250
+Wire Wire Line
+	3450 3350 3450 3450
+Wire Wire Line
+	3450 3250 3450 3350
 $EndSCHEMATC
